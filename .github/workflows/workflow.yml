@@ -1,7 +1,7 @@
 name: CI workflow
 jobs:
   build:
-   runs-on: ubuntu_latest
+   runs-on: ubuntu-latest
    container: python:3.9-slim
    steps:
      - name: Checkout
